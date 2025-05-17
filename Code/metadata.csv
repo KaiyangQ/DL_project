@@ -1,0 +1,26 @@
+Column_Name,Data_Type,Description
+PatientID,String,Unique identifier for each patient
+Street,String,Street address of the patient
+Location,String,City of the patient
+Latitude,Float,Latitude coordinate of the patient location
+Longitude,Float,Longitude coordinate of the patient location
+Admission_Type,String,"Type of admission (Emergency, Elective, Urgent, Newborn)"
+Discharge_Disposition,String,Discharge disposition of the patient
+Admission_Date,Date,Date of admission
+Discharge_Date,Date,Date of discharge
+Length_of_Stay,Integer,Length of stay in days
+Age,Integer,Age of the patient
+Gender,String,Gender of the patient
+Ethnicity,String,Ethnicity of the patient
+Primary_Diagnosis,String,Primary diagnosis code
+Secondary_Diagnosis,String,Secondary diagnosis code
+Procedure_Code,Integer,Procedure code
+Procedure_Description,String,Description of the procedure
+Comorbidities,String,Presence of comorbidities (Yes/No)
+Medication,String,Medication given
+Follow_Up,String,Follow-up required (Yes/No)
+Insurance,String,Type of insurance
+Notes,String,Notes about the patient
+Doctor_Comments,String,Comments from the doctor
+Medication_Details,String,Details about the medication
+Admission_Category,String,Category of the admission (target variable)
